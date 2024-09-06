@@ -1,4 +1,4 @@
-from dagster import asset
+from dagster import asset, op
 
 
 @asset
@@ -8,4 +8,9 @@ def git_dummy_asset():
 
 @asset
 def asset_test():
+    pass
+
+
+@op
+def op_test():
     pass
