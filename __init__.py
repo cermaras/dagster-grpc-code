@@ -14,3 +14,8 @@ def asset_test():
 @op
 def op_test():
     pass
+
+
+@asset
+def new_asset():
+    pass
